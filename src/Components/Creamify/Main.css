@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+html {
+    /* font-family: 'Protest Revolution', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Protest Riot', sans-serif; */
+    scroll-behavior:smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 5px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color:#ed4d9a;
+}
+
+.logo-pic{
+    filter: drop-shadow(1px 1px 0px #fff );
+}
+.raspberry-img{
+    filter: drop-shadow(10px 10px 10px #0000004c );
+}
+.active-link{
+    text-shadow: 1px 1px 3px white;
+}
+
+
+.nav-items, .shop-link-text{
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.main-title, .about-title, .about-title-text, .about-connie, .about-connie-text, .connie-details-header, .service-text, .service-text-title, .service-type, .shadow-text, .order-title, .order-title-main,
+.menu-title, .menu-title-main, .best-item-title, .menu-list-title, .menu-price,
+ .slider-title, .slider-price, .slider-main-title, .discount-title,
+  .discount-title-main, .product-title, .product-title-main,
+   .item-name, .item-price, .contact-title, .contact-text-main,
+    .contactMessage-title,.message-title, .social-links-title{
+    font-family: 'Protest Strike', sans-serif;
+    /* text-shadow: 2px 2px 4px #0000; */
+}
+
+.clipPath{
+    clip-path: polygon(2% 76%, 6% 73%, 12% 71%, 19% 69%, 25% 68%, 36% 69%, 47% 71%, 56% 73%, 67% 74%, 77% 73%, 86% 71%, 94% 69%, 100% 65%, 100% 100%, 0% 100%);
+}
+
+@media screen and (width < 760px) {
+    .active-nav{
+        height: 3rem;
+    }
+}
